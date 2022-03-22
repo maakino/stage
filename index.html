@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,21 +8,85 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Stage</title>
 </head>
+
 <body>
     <header class="header">
-        <img src="img/logo.svg" alt="logo" width="174" height="76">
-        <nav class="header__navbar">
+        <div class="header__top">
+            <img id="burger" src="img/burger.svg" alt="logo" width="57" height="57">
+        </div>
+        <nav id="nav" class="header__navbar-off">
+            <img class="header__logo" src="img/logo.svg" alt="logo" width="174" height="76">
             <ul class="header__navbar-block">
-                <li>Accueil</li>
-                <li>Service</li>
-                <li>Bungalow</li>
-                <li>Contact</li>
+                <a href="#">
+                    <li class="header__navbar-list">Accueil</li>
+                </a>
+                <a href="#">
+                    <li class="header__navbar-list">Service</li>
+                </a>
+                <a href="#">
+                    <li class="header__navbar-list">Bungalow</li>
+                </a>
+                <a href="#">
+                    <li class="header__navbar-list">Contact</li>
+                </a>
             </ul>
         </nav>
     </header>
+<main>
+    <section class="page">
+        test
+    </section>
+  
+</main>
 
 
+    <footer class="footer">
+        <nav class="footer__nav">
+            <ul class="footer__nav-block">
+                <a href="#">
+                    <li>Accueil</li>
+                </a>
+                <a href="#">
+                    <li>Service</li>
+                </a>
+                <a href="#">
+                    <li>Bungalow</li>
+                </a>
+                <a href="#">
+                    <li>Contact</li>
+                </a>
+            </ul>
+        </nav>
+        <div class="footer-info">
+            <div>
+                <h3>En savoir plus</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+            </div>
 
+            <div>
+                <h3>Les bungalows</h3>
+                <ul class="footer__block">
+                    <a href="#">
+                        <li>Letchi</li>
+                    </a>
+                    <a href="#">
+                        <li>Letchi</li>
+                    </a>
+                    <a href="#">
+                        <li>Letchi</li>
+                    </a>
+                </ul>
+            </div>
+            <div class="footer__contact">
+                <img src="img/logo.svg" alt="logo" width="174" height="76">
+                <p>10 rue mangier 97421 les makes</p>
+                <p>10 rue mangier 97421 les makes</p>
+                <p>10 rue mangier 97421 les makes</p>
+            </div>
+        </div>
+        <p class="copy">Copyright</p>
+    </footer>
     <script src="js/script.js"></script>
 </body>
+
 </html>
