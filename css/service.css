@@ -1,0 +1,11 @@
+.service{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.service span{
+    text-align: center;
+    line-height: 1.5;
+}
