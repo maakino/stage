@@ -1,5 +1,9 @@
 /* reset css */
 @import url("reset.css");
+@import url("home.css");
+@import url("agenda.css");
+
+
 
 @font-face {
     font-family: "Lato-light";
