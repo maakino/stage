@@ -1,0 +1,42 @@
+.contact{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-green);
+  color: white;
+  padding: 25px;
+}
+.form__contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form__contact h2{
+    margin-bottom: 24px;
+}
+.champ{
+    margin-bottom: 24px;
+    width: 100%;
+    height: 46px;
+}
+
+.champ, textarea{
+    width: 100%;
+    border-radius: 5px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    padding-left: 10px;
+}
+::placeholder{
+    color: white;
+}
+
+.btn_contact{
+   background-color: white;
+   color: #726666;
+   width: 158px;
+}
+

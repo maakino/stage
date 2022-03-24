@@ -6,6 +6,8 @@
 @import url("service.css");
 @import url("bungallow.css");
 @import url("activite.css");
+@import url("contact.css");
+
 
 @font-face {
     font-family: "Lato-light";
@@ -40,6 +42,8 @@ h2{
 .header {
     background-color: var(--color-green);
     width: 100vw;
+    position: fixed;
+    z-index: 1;
 }
 .page{
     padding: 0 25px 25px 25px;
