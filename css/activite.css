@@ -1,0 +1,29 @@
+.activite {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.activite__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 18px;
+    margin-bottom: 47px ;
+}
+.activite__content h2{
+    margin-bottom: 20px;
+}
+.activite__content img{
+  margin: auto;
+}
+.activite__span{
+    line-height: 30px;
+    margin-bottom: 50px;
+}
+.activite h3{
+    font-weight: 700;
+    text-transform: uppercase;
+}

@@ -1,0 +1,39 @@
+.bungalow{
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+.bungalow__content{
+    background-image: url("../img/hero.png");
+    width: 100%;
+   height: 276px;
+}
+.off{
+    display: none;
+}
+.bungalow__hover{
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    color: white;
+    background: rgb(170 150 76 / 0.85 );
+}
+.bungalow__hover h2{
+    margin-bottom: 38px;
+}
+.bungalow__hover span{
+    display: flex;
+    width: 50%;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+.btn__bungalow{
+    margin-top: 0;
+    background: transparent;
+    border-color: white;
+
+}
