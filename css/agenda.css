@@ -1,5 +1,4 @@
 .reservation {
-
     padding: 5% 0;
 }
 
@@ -8,6 +7,7 @@
     flex-direction: column;
     width: 50%;
     margin: auto;
+    gap: 12px;
 }
 
 input, select {
@@ -24,5 +24,17 @@ input, select {
     background-color: var(--color-green);
     color: white;
     border-radius: 5px;
-    margin-top: 41px;
+   margin: 0 auto;
+}
+
+@media (min-width: 576px){
+    .form{
+       
+    }
+    select, input{
+        width: 100%;
+    }
+    .btn__reservation{
+        margin: 0 auto;
+    }
 }

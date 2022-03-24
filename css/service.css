@@ -9,3 +9,16 @@
     text-align: center;
     line-height: 1.5;
 }
+.service div{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+@media (min-width: 576px){
+  .service div{
+      width: 100%;
+      flex-direction: row;
+      justify-content: space-around;
+  }
+}
