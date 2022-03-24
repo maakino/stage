@@ -32,6 +32,12 @@ link.forEach(function (link) {
     link.addEventListener('click', toogleclick);
 })
 
+document.querySelectorAll('.bungalowImg').forEach(function (_conteneur) {
+    _conteneur.addEventListener('click', () => {
+        let hover = _conteneur.querySelector('.bungaon');
+        hover.classList.toggle('bungalow__hover');
+    })
+})
 
 
 
