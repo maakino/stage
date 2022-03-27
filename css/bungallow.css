@@ -64,12 +64,20 @@
         margin-left: 175px;
     }
 }
+@media (min-width: 992px) {
+    .bungalow {
+      width: 85%;
+      margin: auto;
+     gap: 100px;
+    }
+}
 
 @media (min-width: 1400px) {
     .bungalow {
         flex-direction: row;
         align-items: center;
         padding: 50px !important;
+        width: 100%;
+        gap: 50px;
     }
-
 }

@@ -39,6 +39,13 @@
 
   }
 }
+@media (min-width: 992px){
+.activite p{
+    width: 80% ;
+    margin: auto;
+}
+
+}
 
 @media (min-width: 1400px){
    .activite__content{
