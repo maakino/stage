@@ -15,11 +15,14 @@
     height: auto;
     margin: auto;
 }
-
-@media (min-width :1400px){
+@media (min-width :992px){
     .home{
         padding: 117px 50px 0;
     }
+}
+
+@media (min-width :1400px){
+   
     .home img{
         width: 80%;
     }
