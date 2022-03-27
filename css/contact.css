@@ -1,28 +1,31 @@
-.contact{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: var(--color-green);
-  color: white;
-  padding: 25px;
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-green);
+    color: white;
+    padding: 25px;
 }
-.form__contact{
+
+.form__contact {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.form__contact h2{
+
+.form__contact h2 {
     margin-bottom: 24px;
 }
-.champ{
+
+.champ {
     margin-bottom: 24px;
     width: 100%;
     height: 46px;
 }
 
-.champ, textarea{
+.champ, textarea {
     width: 100%;
     border-radius: 5px;
     background-color: transparent;
@@ -30,13 +33,72 @@
     color: white;
     padding-left: 10px;
 }
-::placeholder{
+
+textarea {
+    margin-bottom: 24px;
+
+}
+
+::placeholder {
     color: white;
 }
 
-.btn_contact{
-   background-color: white;
-   color: #726666;
-   width: 158px;
+.btn_contact {
+    background-color: white;
+    color: #726666;
+    width: 158px;
 }
 
+@media (min-width: 576px) {
+
+    .form__contact {
+        width: 80%;
+    }
+
+    .form__contact span {
+        width: 100%;
+    }
+}
+
+@media (min-width: 1400px) {
+    .contact {
+        padding: 97px 0;
+    }
+.contact h2{
+    margin-bottom: 50px;
+}
+    .form__contact span {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 50px;
+    }
+
+    .champ {
+        width: 49%;
+        height: 80px;
+    }
+
+    textarea {
+        height: 202px;
+        margin-bottom: 50px;
+    }
+.btn_contact{
+    background-color: var(--color-green);
+    border: 1px solid white;
+    color: white;
+}
+    .btn_contact:hover{
+        background-color: white;
+    color: #726666;
+    width: 158px;
+    }
+    .contact h2{
+        font-size: 36px;
+    }
+    input, textarea{
+        font-size: 20px;
+    }
+    textarea{
+        padding-top: 20px;
+    }
+}

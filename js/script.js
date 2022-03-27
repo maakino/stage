@@ -1,11 +1,7 @@
 function isMobileDevice() {
     if (navigator.userAgent.match(/iPhone/i)
-        || navigator.userAgent.match(/webOS/i)
         || navigator.userAgent.match(/Android/i)
-        || navigator.userAgent.match(/iPad/i)
-        || navigator.userAgent.match(/iPod/i)
-        || navigator.userAgent.match(/BlackBerry/i)
-        || navigator.userAgent.match(/Windows Phone/i)
+
     ) {
         document.querySelectorAll('.bungalowImg').forEach(function (_conteneur) {
             _conteneur.addEventListener('click', () => {
@@ -13,11 +9,30 @@ function isMobileDevice() {
                 hover.classList.toggle('bungalow__hover');
             })
         })
+
     }
     else {
-        return false;
+        console.log('pc');
+        document.querySelectorAll('.bungalowImg').forEach(function (_conteneur) {
+            _conteneur.addEventListener('mouseover', () => {
+                
+                let hover = _conteneur.querySelector('.bungaon');
+                hover.classList.add('bungalow__hover');
+            })
+        })
+        
+        document.querySelectorAll('.bungalowImg').forEach(function (_conteneur) {
+            _conteneur.addEventListener('mouseleave', () => {
+
+                let hover = _conteneur.querySelector('.bungaon');
+                hover.classList.remove('bungalow__hover');
+            })
+        })
+        
     }
 }
+
+isMobileDevice();
 
 let burger = document.getElementById('burger');
 let nav = document.getElementById('nav');
@@ -32,12 +47,10 @@ link.forEach(function (link) {
     link.addEventListener('click', toogleclick);
 })
 
-document.querySelectorAll('.bungalowImg').forEach(function (_conteneur) {
-    _conteneur.addEventListener('click', () => {
-        let hover = _conteneur.querySelector('.bungaon');
-        hover.classList.toggle('bungalow__hover');
-    })
-})
+
+
+
+
 
 
 

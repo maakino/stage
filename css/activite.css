@@ -27,3 +27,39 @@
     font-weight: 700;
     text-transform: uppercase;
 }
+
+
+@media (min-width: 576px){
+    .activite__content{
+        width: 100%;
+    }
+  .activite__content div{
+      display: flex;
+      justify-content: space-around;
+
+  }
+}
+
+@media (min-width: 1400px){
+   .activite__content{
+       width: 80%;
+       font-size: 24px;
+       gap: 62px;
+   }
+   .activite{
+       gap: 175px;
+   }
+   .activite h2{
+       font-size: 36px;
+   }
+   .activite p{
+       font-size: 24px;
+       line-height: 1.5;
+   }
+   .activite h3{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 10px;
+   }
+}
+

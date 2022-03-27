@@ -22,3 +22,16 @@
       justify-content: space-around;
   }
 }
+
+@media (min-width: 1400px){
+    .service {
+        gap: 175px;
+    }
+    .service h2{
+        font-size: 36px;
+    }
+    .service h3{
+        font-size: 30px;
+        font-weight: 500;
+    }
+}

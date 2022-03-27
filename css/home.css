@@ -15,3 +15,16 @@
     height: auto;
     margin: auto;
 }
+
+@media (min-width :1400px){
+    .home{
+        padding: 117px 50px 0;
+    }
+    .home img{
+        width: 80%;
+    }
+    .home h1{
+        font-size: 50px;
+        font-weight: 700;
+    }
+}

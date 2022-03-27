@@ -32,6 +32,7 @@ body, html {
     margin: auto;
     overflow-x: hidden;
    font-family: var(--lato-light);
+   scroll-behavior: smooth;
 }
 h2{
     color: var(--color-greengit);
@@ -47,7 +48,6 @@ h2{
 }
 .page{
     padding: 0 25px 25px 25px;
-
 }
 .header__navbar-off {
     display: none;
@@ -194,7 +194,15 @@ h2{
 .copy {
     text-align: center;
 }
-
+@media (min-width: 576px){
+    .footer__nav-block{
+        flex-direction: row;
+    }
+    .footer__block{
+        flex-direction: row;
+        justify-content: center;
+    }
+    }
 @media (min-width: 1024px) {
     .footer {
         gap: 37px;
@@ -231,4 +239,16 @@ h2{
         width: 80%;
         margin: auto;
     } 
+    .header__navbar{
+       display: flex;
+     flex-direction: row;
+     height: auto;
+     justify-content: space-around;
+    }
+    .page{
+        padding: 0 25px 168px 0;
+    }
+    h2{
+        font-size: 36px;
+    }
 }
